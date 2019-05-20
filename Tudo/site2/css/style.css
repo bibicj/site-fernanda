@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+
+body{
+    font-family: 'Slabo 27px', serif;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background-color: #5e0707;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+/* HOME */
+
+.bg-home{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel{
+    height: 86.5vh;
+}
+
+.carousel-item{
+    height:86.5vh;
+}
+
+.carousel-control-next{
+    padding: 90px; 
+}
+
+/* QUEM SOMOS? */
+
+.quemsomos{
+    background-color: #F1DBDB;
+    height: 100vh;   
+    overflow-x: hidden;
+}
+
+
+#titulo{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10vh;
+    width: 50vw;       
+}
+#texto{
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.imagemqs1{
+    height:300px;
+    width: 300px;
+    padding-top:10vh;
+    margin-left:7vw; 
+}
+
+.imagemqs2{
+    height:300px;
+    width: 300px;
+    padding-top:3vh;
+    padding-bottom: 2vh;
+    margin-left: 7vw;   
+}
+
+/* FOOTER */
+footer{
+    color: white;
+    height: 5vh;
+    background-color: #5e0707;
+    text-align: center;
+    padding: 5px;
+}
